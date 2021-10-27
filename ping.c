@@ -1,5 +1,5 @@
 /**
- * File:        ritping.c
+ * File:        ping.c
  * Author:      Chris Tremblay <cst1465@rit.edu>
  * Date:        10/06/2021, National Noodle Day!
  * Description:
@@ -30,7 +30,7 @@
 
 // The usage message
 const char USAGE_MSG[] = 
-"Usage: ./ritping [-c count] [-i wait] [-s size] host\n";
+"Usage: ./ping [-c count] [-i wait] [-s size] host\n";
 
 // the options for getopt
 const char OPTIONS[] = "c:i:s:";
