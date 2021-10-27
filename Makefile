@@ -1,5 +1,5 @@
 CC=gcc
-TARGET = ritping
+TARGET = ping
 FILES = networking.c set_uid.c
 CFLAGS = -g -Wall -Wextra -pedantic -lm
 
